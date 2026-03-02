@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/Pataxsa/CrazyBot"><img src="https://cdn.discordapp.com/app-icons/1288906275349987348/1281ce7a67d52c81b57c5118e87eec6e.png" width="200" alt="CrazyBot"></a>
+  <a href="https://github.com/0BL1V10N1/CrazyBot"><img src="https://cdn.discordapp.com/app-icons/1288906275349987348/1281ce7a67d52c81b57c5118e87eec6e.png" width="200" alt="CrazyBot"></a>
   <br>
   CrazyBot
   <br>
@@ -46,7 +46,7 @@
     -   First **clone** the project
 
         ```bash
-        git clone https://gitlab.univ-lr.fr/projets-l2-2024/les-crazy/CrazyBot.git
+        git clone https://github.com/0BL1V10N1/CrazyBot
         cd CrazyBot
         ```
 
@@ -160,22 +160,22 @@
 
 # 🤝 Contributors
 
-<a href="https://github.com/Pataxsa/CrazyBot/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Pataxsa/CrazyBot" alt="contrib.rocks image" />
+<a href="https://github.com/0BL1V10N1/CrazyBot/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=0BL1V10N1/CrazyBot" alt="contrib.rocks image" />
 </a>
 
-[version-shield]: https://img.shields.io/github/package-json/v/Pataxsa/CrazyBot?style=for-the-badge
-[version-url]: https://github.com/Pataxsa/CrazyBot/releases/latest
-[contributors-shield]: https://img.shields.io/github/contributors/Pataxsa/CrazyBot.svg?style=for-the-badge
-[contributors-url]: https://github.com/Pataxsa/CrazyBot/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Pataxsa/CrazyBot.svg?style=for-the-badge
-[forks-url]: https://github.com/Pataxsa/CrazyBot/network/members
-[stars-shield]: https://img.shields.io/github/stars/Pataxsa/CrazyBot.svg?style=for-the-badge
-[stars-url]: https://github.com/Pataxsa/CrazyBot/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Pataxsa/CrazyBot.svg?style=for-the-badge
-[issues-url]: https://github.com/Pataxsa/CrazyBot/issues
-[license-shield]: https://img.shields.io/github/license/Pataxsa/CrazyBot.svg?style=for-the-badge
-[license-url]: https://github.com/Pataxsa/CrazyBot/blob/main/LICENSE.txt
+[version-shield]: https://img.shields.io/github/package-json/v/0BL1V10N1/CrazyBot?style=for-the-badge
+[version-url]: https://github.com/0BL1V10N1/CrazyBot/releases/latest
+[contributors-shield]: https://img.shields.io/github/contributors/0BL1V10N1/CrazyBot.svg?style=for-the-badge
+[contributors-url]: https://github.com/0BL1V10N1/CrazyBot/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/0BL1V10N1/CrazyBot.svg?style=for-the-badge
+[forks-url]: https://github.com/0BL1V10N1/CrazyBot/network/members
+[stars-shield]: https://img.shields.io/github/stars/0BL1V10N1/CrazyBot.svg?style=for-the-badge
+[stars-url]: https://github.com/0BL1V10N1/CrazyBot/stargazers
+[issues-shield]: https://img.shields.io/github/issues/0BL1V10N1/CrazyBot.svg?style=for-the-badge
+[issues-url]: https://github.com/0BL1V10N1/CrazyBot/issues
+[license-shield]: https://img.shields.io/github/license/0BL1V10N1/CrazyBot.svg?style=for-the-badge
+[license-url]: https://github.com/0BL1V10N1/CrazyBot/blob/main/LICENSE.txt
 [Discord.js]: https://img.shields.io/badge/discord.js-5765F2?style=for-the-badge&logo=discord&logoColor=white
 [Discord-url]: https://discord.js.org/
 [Prisma.io]: https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white
