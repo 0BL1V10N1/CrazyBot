@@ -6,10 +6,10 @@
   <br>
 </h1>
 
-<p align="center">A multipurpose discord bot to help students.</p>
+<p align="center">A multipurpose Discord bot to help students.</p>
 
 <p align="center">
-  <a href="#%EF%B8%8F-build-with">Build with</a> •
+  <a href="#%EF%B8%8F-built-with">Built with</a> •
   <a href="#-getting-started">Getting started</a> •
   <a href="#-features">Features</a> •
   <a href="#%EF%B8%8F-roadmap">Roadmap</a> •
@@ -24,7 +24,7 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
-# 🏗️ Build with
+# 🏗️ Built with
 
 -   [![Discord][Discord.js]][Discord-url]
 -   [![Prisma][Prisma.io]][Prisma-url]
@@ -36,10 +36,10 @@
 
 -   ## 📦 Prerequisites
 
-    -   🖥️ [NodeJS](https://nodejs.org/) (>= 20.17.0)
+    -   🖥️ [Node.js](https://nodejs.org/) (>= 20.17.0)
     -   💾 [Redis](https://redis.io/) (>= 7.4.1)
     -   🗄️ [PostgreSQL](https://www.postgresql.org/) (>= 14.0.0)
-    -   🐙 [Git](https://git-scm.com/) (\*)
+    -   🐙 [Git](https://git-scm.com/) (*)
 
 -   ## ⚙️ Installation
 
@@ -56,7 +56,7 @@
         npm install
         ```
 
-    -   **Import** the sql file **[DB.sql](./DB.sql)** into your Postgres database
+    -   **Import** the sql file **[DB.sql](./DB.sql)** into your PostgreSQL database
 
     -   And finally **launch** the project with the command below ! (configure the `.env` file before !)
 
@@ -71,12 +71,12 @@
         ```bash
         # Bot token
         TOKEN=
-        # Postgresql link (example: postgresql://root:root@localhost/db)
+        # PostgreSQL link (example: postgresql://root:root@localhost/db)
         # For Docker use "postgresql://root:root@bot-db/crazybot"
         POSTGRESQL_DB=
         # Redis server link (example: redis://default:default@127.0.0.1:6379)
         REDIS_CACHE=
-        # OpenWeatherMap Api Key (link: https://openweathermap.org/api)
+        # OpenWeatherMap API Key (link: https://openweathermap.org/api)
         WEATHER_API=
         ```
 
