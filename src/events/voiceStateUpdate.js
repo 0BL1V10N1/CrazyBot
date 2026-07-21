@@ -19,12 +19,14 @@ class VoiceStateUpdate extends Event {
     async execute(oldMember, newMember) {
         const { guild } = newMember;
         const joined = Boolean(newMember.channelId);
-        const channelId = newMember.channelId || oldMember.channelId;
+        const left = Boolean(oldMember.channelId);
 
-        if (joined) {
-            this.#onJoin(newMember, channelId, guild);
-        } else {
-            this.#onLeave(oldMember, channelId, guild);
+        if (left && oldMember.channelId !== newMember.channelId) {
+            this.#onLeave(oldMember, oldMember.channelId, guild);
+        }
+
+        if (joined && oldMember.channelId !== newMember.channelId) {
+            this.#onJoin(newMember, newMember.channelId, guild);
         }
     }
 
@@ -69,6 +71,8 @@ class VoiceStateUpdate extends Event {
     async #onLeave(_, channelId, guild) {
         const channel = temp_channels[guild.id]?.[channelId];
         if (!channel) return;
+
+        if (channel.members.size > 0) return;
 
         delete temp_channels[guild.id][channelId];
         await channel.delete().catch(() => {});
