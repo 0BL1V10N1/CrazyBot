@@ -30,6 +30,13 @@ class Functions {
 
         userCooldown[cmd.infos.name] = currentTime + cmd.config.cooldown;
 
+        setTimeout(() => {
+            delete userCooldown[cmd.infos.name];
+            if (Object.keys(userCooldown).length === 0) {
+                delete cooldowns[userId];
+            }
+        }, cmd.config.cooldown);
+
         return false;
     }
 
